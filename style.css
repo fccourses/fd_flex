@@ -4,6 +4,7 @@
 
 .container {
   border: 10px solid black;
+  max-width: 1220px;
 }
 
 .item {
@@ -11,8 +12,6 @@
   font-size: 2em;
   color: white;
   border: 5px solid red;
-
-
   background-color: teal;
 }
 
@@ -21,5 +20,6 @@
 }
 
 .flexItem {
-  flex-basis: 100px;
+  flex: 1;
 }
+
